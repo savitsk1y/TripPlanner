@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65531DC12B681FA2004275F1 /* TripManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65531DC02B681FA2004275F1 /* TripManager.swift */; };
+		65531DC42B6856AA004275F1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65531DC32B6856AA004275F1 /* MapView.swift */; };
+		65531E662B690E04004275F1 /* PopUpListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65531E652B690E04004275F1 /* PopUpListView.swift */; };
+		655320492B6968F3004275F1 /* ModelsDTO+fake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655320482B6968F3004275F1 /* ModelsDTO+fake.swift */; };
+		6553204C2B696C06004275F1 /* FakeApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6553204B2B696C06004275F1 /* FakeApiService.swift */; };
+		65C100612B6671F500D1A577 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C100602B6671F500D1A577 /* Enums.swift */; };
+		65C5B4DC2B64FEEA006B61FA /* TripPlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5B4DB2B64FEEA006B61FA /* TripPlannerApp.swift */; };
+		65C5B4DE2B64FEEA006B61FA /* PlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5B4DD2B64FEEA006B61FA /* PlannerView.swift */; };
+		65C5B4E02B64FEEC006B61FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C5B4DF2B64FEEC006B61FA /* Assets.xcassets */; };
+		65C5B4E32B64FEEC006B61FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C5B4E22B64FEEC006B61FA /* Preview Assets.xcassets */; };
+		65C5B4ED2B64FEEC006B61FA /* TripPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5B4EC2B64FEEC006B61FA /* TripPlannerTests.swift */; };
+		65C5B4F72B64FEEC006B61FA /* TripPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5B4F62B64FEEC006B61FA /* TripPlannerUITests.swift */; };
+		65C5B4F92B64FEEC006B61FA /* TripPlannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5B4F82B64FEEC006B61FA /* TripPlannerUITestsLaunchTests.swift */; };
+		65C5B5082B650259006B61FA /* ModelsDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5B5072B650259006B61FA /* ModelsDTO.swift */; };
+		65C5B50A2B65040D006B61FA /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5B5092B65040D006B61FA /* ApiService.swift */; };
+		65C5B50C2B650477006B61FA /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5B50B2B650477006B61FA /* AppConfig.swift */; };
+		65C5B50E2B65103A006B61FA /* PlannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5B50D2B65103A006B61FA /* PlannerViewModel.swift */; };
+		65C5B5102B651B64006B61FA /* Entities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C5B50F2B651B64006B61FA /* Entities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65C5B4E92B64FEEC006B61FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65C5B4D02B64FEEA006B61FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65C5B4D72B64FEEA006B61FA;
+			remoteInfo = TripPlanner;
+		};
+		65C5B4F32B64FEEC006B61FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65C5B4D02B64FEEA006B61FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65C5B4D72B64FEEA006B61FA;
+			remoteInfo = TripPlanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65531DC02B681FA2004275F1 /* TripManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripManager.swift; sourceTree = "<group>"; };
+		65531DC32B6856AA004275F1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		65531E652B690E04004275F1 /* PopUpListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpListView.swift; sourceTree = "<group>"; };
+		655320482B6968F3004275F1 /* ModelsDTO+fake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ModelsDTO+fake.swift"; sourceTree = "<group>"; };
+		6553204B2B696C06004275F1 /* FakeApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeApiService.swift; sourceTree = "<group>"; };
+		65C100602B6671F500D1A577 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		65C5B4D82B64FEEA006B61FA /* TripPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C5B4DB2B64FEEA006B61FA /* TripPlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPlannerApp.swift; sourceTree = "<group>"; };
+		65C5B4DD2B64FEEA006B61FA /* PlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerView.swift; sourceTree = "<group>"; };
+		65C5B4DF2B64FEEC006B61FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65C5B4E22B64FEEC006B61FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		65C5B4E82B64FEEC006B61FA /* TripPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C5B4EC2B64FEEC006B61FA /* TripPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPlannerTests.swift; sourceTree = "<group>"; };
+		65C5B4F22B64FEEC006B61FA /* TripPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C5B4F62B64FEEC006B61FA /* TripPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPlannerUITests.swift; sourceTree = "<group>"; };
+		65C5B4F82B64FEEC006B61FA /* TripPlannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPlannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65C5B5072B650259006B61FA /* ModelsDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsDTO.swift; sourceTree = "<group>"; };
+		65C5B5092B65040D006B61FA /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		65C5B50B2B650477006B61FA /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		65C5B50D2B65103A006B61FA /* PlannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerViewModel.swift; sourceTree = "<group>"; };
+		65C5B50F2B651B64006B61FA /* Entities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entities.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65C5B4D52B64FEEA006B61FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C5B4E52B64FEEC006B61FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C5B4EF2B64FEEC006B61FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65531DBF2B681F89004275F1 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				65531DC02B681FA2004275F1 /* TripManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		65531DC22B681FCB004275F1 /* PlannerView */ = {
+			isa = PBXGroup;
+			children = (
+				65C5B4DD2B64FEEA006B61FA /* PlannerView.swift */,
+				65C5B50D2B65103A006B61FA /* PlannerViewModel.swift */,
+			);
+			path = PlannerView;
+			sourceTree = "<group>";
+		};
+		65531E672B690E93004275F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				65531DC32B6856AA004275F1 /* MapView.swift */,
+				65531E652B690E04004275F1 /* PopUpListView.swift */,
+				65531DC22B681FCB004275F1 /* PlannerView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6553204A2B696BB6004275F1 /* TestDoubles */ = {
+			isa = PBXGroup;
+			children = (
+				655320482B6968F3004275F1 /* ModelsDTO+fake.swift */,
+				6553204B2B696C06004275F1 /* FakeApiService.swift */,
+			);
+			path = TestDoubles;
+			sourceTree = "<group>";
+		};
+		65C5B4CF2B64FEEA006B61FA = {
+			isa = PBXGroup;
+			children = (
+				65C5B4DA2B64FEEA006B61FA /* TripPlanner */,
+				65C5B4EB2B64FEEC006B61FA /* TripPlannerTests */,
+				65C5B4F52B64FEEC006B61FA /* TripPlannerUITests */,
+				65C5B4D92B64FEEA006B61FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65C5B4D92B64FEEA006B61FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65C5B4D82B64FEEA006B61FA /* TripPlanner.app */,
+				65C5B4E82B64FEEC006B61FA /* TripPlannerTests.xctest */,
+				65C5B4F22B64FEEC006B61FA /* TripPlannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65C5B4DA2B64FEEA006B61FA /* TripPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				65C5B5052B6501BB006B61FA /* Default */,
+				65C5B50B2B650477006B61FA /* AppConfig.swift */,
+				65C5B4DB2B64FEEA006B61FA /* TripPlannerApp.swift */,
+				65531E672B690E93004275F1 /* Views */,
+				65531DBF2B681F89004275F1 /* Managers */,
+				65C5B5122B652EE3006B61FA /* Domain */,
+				65C5B5062B6501E0006B61FA /* Networking */,
+				65C100602B6671F500D1A577 /* Enums.swift */,
+				6553204A2B696BB6004275F1 /* TestDoubles */,
+			);
+			path = TripPlanner;
+			sourceTree = "<group>";
+		};
+		65C5B4E12B64FEEC006B61FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				65C5B4E22B64FEEC006B61FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		65C5B4EB2B64FEEC006B61FA /* TripPlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				65C5B4EC2B64FEEC006B61FA /* TripPlannerTests.swift */,
+			);
+			path = TripPlannerTests;
+			sourceTree = "<group>";
+		};
+		65C5B4F52B64FEEC006B61FA /* TripPlannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65C5B4F62B64FEEC006B61FA /* TripPlannerUITests.swift */,
+				65C5B4F82B64FEEC006B61FA /* TripPlannerUITestsLaunchTests.swift */,
+			);
+			path = TripPlannerUITests;
+			sourceTree = "<group>";
+		};
+		65C5B5052B6501BB006B61FA /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				65C5B4DF2B64FEEC006B61FA /* Assets.xcassets */,
+				65C5B4E12B64FEEC006B61FA /* Preview Content */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		65C5B5062B6501E0006B61FA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				65C5B5092B65040D006B61FA /* ApiService.swift */,
+				65C5B5112B652ED0006B61FA /* DTO */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		65C5B5112B652ED0006B61FA /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				65C5B5072B650259006B61FA /* ModelsDTO.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		65C5B5122B652EE3006B61FA /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				65C5B50F2B651B64006B61FA /* Entities.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65C5B4D72B64FEEA006B61FA /* TripPlanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65C5B4FC2B64FEEC006B61FA /* Build configuration list for PBXNativeTarget "TripPlanner" */;
+			buildPhases = (
+				65C5B4D42B64FEEA006B61FA /* Sources */,
+				65C5B4D52B64FEEA006B61FA /* Frameworks */,
+				65C5B4D62B64FEEA006B61FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripPlanner;
+			productName = TripPlanner;
+			productReference = 65C5B4D82B64FEEA006B61FA /* TripPlanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65C5B4E72B64FEEC006B61FA /* TripPlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65C5B4FF2B64FEEC006B61FA /* Build configuration list for PBXNativeTarget "TripPlannerTests" */;
+			buildPhases = (
+				65C5B4E42B64FEEC006B61FA /* Sources */,
+				65C5B4E52B64FEEC006B61FA /* Frameworks */,
+				65C5B4E62B64FEEC006B61FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65C5B4EA2B64FEEC006B61FA /* PBXTargetDependency */,
+			);
+			name = TripPlannerTests;
+			productName = TripPlannerTests;
+			productReference = 65C5B4E82B64FEEC006B61FA /* TripPlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65C5B4F12B64FEEC006B61FA /* TripPlannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65C5B5022B64FEEC006B61FA /* Build configuration list for PBXNativeTarget "TripPlannerUITests" */;
+			buildPhases = (
+				65C5B4EE2B64FEEC006B61FA /* Sources */,
+				65C5B4EF2B64FEEC006B61FA /* Frameworks */,
+				65C5B4F02B64FEEC006B61FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65C5B4F42B64FEEC006B61FA /* PBXTargetDependency */,
+			);
+			name = TripPlannerUITests;
+			productName = TripPlannerUITests;
+			productReference = 65C5B4F22B64FEEC006B61FA /* TripPlannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65C5B4D02B64FEEA006B61FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					65C5B4D72B64FEEA006B61FA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					65C5B4E72B64FEEC006B61FA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 65C5B4D72B64FEEA006B61FA;
+					};
+					65C5B4F12B64FEEC006B61FA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 65C5B4D72B64FEEA006B61FA;
+					};
+				};
+			};
+			buildConfigurationList = 65C5B4D32B64FEEA006B61FA /* Build configuration list for PBXProject "TripPlanner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65C5B4CF2B64FEEA006B61FA;
+			productRefGroup = 65C5B4D92B64FEEA006B61FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65C5B4D72B64FEEA006B61FA /* TripPlanner */,
+				65C5B4E72B64FEEC006B61FA /* TripPlannerTests */,
+				65C5B4F12B64FEEC006B61FA /* TripPlannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65C5B4D62B64FEEA006B61FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C5B4E32B64FEEC006B61FA /* Preview Assets.xcassets in Resources */,
+				65C5B4E02B64FEEC006B61FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C5B4E62B64FEEC006B61FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C5B4F02B64FEEC006B61FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65C5B4D42B64FEEA006B61FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C5B5082B650259006B61FA /* ModelsDTO.swift in Sources */,
+				65C5B50C2B650477006B61FA /* AppConfig.swift in Sources */,
+				65C5B5102B651B64006B61FA /* Entities.swift in Sources */,
+				65C5B4DE2B64FEEA006B61FA /* PlannerView.swift in Sources */,
+				65C5B50A2B65040D006B61FA /* ApiService.swift in Sources */,
+				65C5B4DC2B64FEEA006B61FA /* TripPlannerApp.swift in Sources */,
+				65C100612B6671F500D1A577 /* Enums.swift in Sources */,
+				65531E662B690E04004275F1 /* PopUpListView.swift in Sources */,
+				655320492B6968F3004275F1 /* ModelsDTO+fake.swift in Sources */,
+				65531DC42B6856AA004275F1 /* MapView.swift in Sources */,
+				65C5B50E2B65103A006B61FA /* PlannerViewModel.swift in Sources */,
+				65531DC12B681FA2004275F1 /* TripManager.swift in Sources */,
+				6553204C2B696C06004275F1 /* FakeApiService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C5B4E42B64FEEC006B61FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C5B4ED2B64FEEC006B61FA /* TripPlannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C5B4EE2B64FEEC006B61FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C5B4F92B64FEEC006B61FA /* TripPlannerUITestsLaunchTests.swift in Sources */,
+				65C5B4F72B64FEEC006B61FA /* TripPlannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65C5B4EA2B64FEEC006B61FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65C5B4D72B64FEEA006B61FA /* TripPlanner */;
+			targetProxy = 65C5B4E92B64FEEC006B61FA /* PBXContainerItemProxy */;
+		};
+		65C5B4F42B64FEEC006B61FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65C5B4D72B64FEEA006B61FA /* TripPlanner */;
+			targetProxy = 65C5B4F32B64FEEC006B61FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		65C5B4FA2B64FEEC006B61FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65C5B4FB2B64FEEC006B61FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65C5B4FD2B64FEEC006B61FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TripPlanner/Default/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TestProjectChallenge.TripPlanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65C5B4FE2B64FEEC006B61FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TripPlanner/Default/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TestProjectChallenge.TripPlanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65C5B5002B64FEEC006B61FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TestProjectChallenge.TripPlannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripPlanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TripPlanner";
+			};
+			name = Debug;
+		};
+		65C5B5012B64FEEC006B61FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TestProjectChallenge.TripPlannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripPlanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TripPlanner";
+			};
+			name = Release;
+		};
+		65C5B5032B64FEEC006B61FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TestProjectChallenge.TripPlannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TripPlanner;
+			};
+			name = Debug;
+		};
+		65C5B5042B64FEEC006B61FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TestProjectChallenge.TripPlannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TripPlanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65C5B4D32B64FEEA006B61FA /* Build configuration list for PBXProject "TripPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C5B4FA2B64FEEC006B61FA /* Debug */,
+				65C5B4FB2B64FEEC006B61FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65C5B4FC2B64FEEC006B61FA /* Build configuration list for PBXNativeTarget "TripPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C5B4FD2B64FEEC006B61FA /* Debug */,
+				65C5B4FE2B64FEEC006B61FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65C5B4FF2B64FEEC006B61FA /* Build configuration list for PBXNativeTarget "TripPlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C5B5002B64FEEC006B61FA /* Debug */,
+				65C5B5012B64FEEC006B61FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65C5B5022B64FEEC006B61FA /* Build configuration list for PBXNativeTarget "TripPlannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C5B5032B64FEEC006B61FA /* Debug */,
+				65C5B5042B64FEEC006B61FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65C5B4D02B64FEEA006B61FA /* Project object */;
+}
